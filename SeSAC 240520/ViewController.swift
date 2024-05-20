@@ -49,8 +49,32 @@ class ViewController: UIViewController {
     // -> tag
     // 2. 아웃렛 머 어떻게 못할까 => OutletCollection
     
+    
+    
+    // 제스처는 항상 user interaction이 항상 켜져 있어야 하
+    // 키보드 내리는 법
+    // 1. did end on exit 이벤트 설정
+    // 2. view.endEditing(true)
+    @IBAction func keyboardDismiss(_ sender: UITapGestureRecognizer) {
+        
+        view.endEditing(true)
+        
+    }
+    
+    @IBAction func imageViewTapped(_ sender: UITapGestureRecognizer) {
+    // user 에 대한 interaction을 받을건지 말건지
+    // 옵션에서 user interaction enabled 체크해줘야함
+        
+        print("아무거나 적어서 동작하는지 확인")
+        
+        
+    }
+    
+    
     @IBAction func oneButtonClicked(_ sender: UIButton) {
 
+        view.endEditing(true)
+        
         count[sender.tag] = count[sender.tag] + 1
         
         

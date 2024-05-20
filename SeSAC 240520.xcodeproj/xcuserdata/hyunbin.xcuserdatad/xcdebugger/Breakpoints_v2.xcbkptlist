@@ -14,8 +14,8 @@
             filePath = "SeSAC 240520/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "designLabelUI(_:thisIsTextColor:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "SeSAC 240520/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "designButtonUI(_:titleColor:title:)"
             landmarkType = "9">
          </BreakpointContent>
