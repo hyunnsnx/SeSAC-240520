@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var twoButton: UIButton!
     @IBOutlet var threeButton: UIButton!
     
+    @IBOutlet var labelLIst: [UILabel]! // 배열로 연결
     
     @IBOutlet var oneLabel: UILabel!
     @IBOutlet var twoLabel: UILabel!
@@ -50,6 +51,13 @@ class ViewController: UIViewController {
     
     @IBAction func oneButtonClicked(_ sender: UIButton) {
 
+        count[sender.tag] = count[sender.tag] + 1
+        
+        
+        //Outlet Collection 활용한 것
+        
+        labelLIst[sender.tag] = count[sender.tag] + 1
+        
         
         
         //print(sender.currentTitle)

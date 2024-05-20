@@ -75,11 +75,14 @@
                         <outlet property="threeLabel" destination="aZd-7q-alj" id="edM-Dl-OJT"/>
                         <outlet property="twoButton" destination="c8F-jc-mAQ" id="JVc-WG-5sR"/>
                         <outlet property="twoLabel" destination="5OV-P0-Fkr" id="gZ8-Lj-Fn1"/>
+                        <outletCollection property="labelLIst" destination="zp4-yO-4I6" collectionClass="NSMutableArray" id="NZM-y0-Lul"/>
+                        <outletCollection property="labelLIst" destination="5OV-P0-Fkr" collectionClass="NSMutableArray" id="333-Vb-uhf"/>
+                        <outletCollection property="labelLIst" destination="aZd-7q-alj" collectionClass="NSMutableArray" id="hh1-pO-5gG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="-146" y="-27"/>
         </scene>
     </scenes>
     <resources>
